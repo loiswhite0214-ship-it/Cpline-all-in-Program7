@@ -1,9 +1,5 @@
 streamlit==1.40.1
 ccxt==4.4.48
-
-# Python 3.13 需要 2.x 的 numpy / 2.2+ 的 pandas（有预编译轮子）
 numpy>=2.1,<2.3
 pandas>=2.2,<2.3
-
-# 用 ZIP 直链安装，避免 git 凭证/uv 的 fetch 限制
-pandas-ta @ https://github.com/twopirllc/pandas-ta/archive/refs/heads/master.zip
+pandas-ta @ https://github.com/twopirllc/pandas-ta/archive/refs/tags/v0.3.14b0.zip
