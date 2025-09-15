@@ -6,4 +6,4 @@ numpy>=2.1,<2.3
 pandas>=2.2,<2.3
 
 # 用 ZIP 直链安装，避免 git 凭证/uv 的 fetch 限制
-pandas-ta @ https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip
+pandas-ta @ https://github.com/twopirllc/pandas-ta/archive/refs/heads/master.zip
